@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #B404AE;
+      font-family: sans-serif;
+      font-size: 8rem;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+
+    .raster {
+      display: grid;
+      grid-template-rows: 150px 150px;
+      grid-template-columns: 150px 150px;
+      grid-auto-flow: column;
+      margin: auto;
+  }
+
+    .raster div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /*https://www.w3schools.com/css/css3_mediaqueries.asp */
+    @media screen and (max-width: 48em){
+      body{
+          background-color: yellow;
+        }
+      .raster div{
+        background-color: yellow;
+        }
+
+        .raster .a {
+          grid-area: 2 / 3 / 2 / 2;
+        }
+        .raster .b {
+          grid-area: 2 / 2 / 2 / 1;
+        }
+      }
+
+  </style>
+</head>
+<body>
+<div class="raster">
+  <div class="a">F</div>
+  <div class="b">C</div>
+  <div class="c">A</div>
+  <div class="d">E</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin-top: 50px;
+      margin-left: 50px;
+      margin-right: 50px;
+      font: 150% sans-serif;
+      background: #FF0000;
+    }
+
+
+    h1  {
+      font-size: 4.2rem;
+      font-weight: bold;
+      line-height: 90%;
+    }
+
+    .raster div {
+      font-size: 0.75em;
+      align-content: start;
+      justify-content: start;
+      align-content: center;
+    }
+
+    .raster {
+      display: grid;
+      grid-template-columns: 13vw 13vw 13vw 13vw;
+      grid-template-rows: repeat (8, 8vw);
+      grid-row-gap: 20px;
+      grid-column-gap: 20px;
+      align-content: start;
+    }
+
+
+    .autor {
+      grid-column: 3 / 5;
+      grid-row: 1;
+    }
+
+
+    .gridsystems {
+      grid-column: 1 / 5;
+      grid-row: 3;
+      align-content: start;
+    }
+
+
+    .textblock1 {
+      grid-column: 1 / 3;
+      grid-row: 4;
+    }
+
+    .textblock2 {
+      grid-column: 3 / 5;
+      grid-row: 4;
+    }
+
+    .rastersysteme {
+      grid-column: 1 / 5;
+      grid-row: 5;
+      align-content: start;
+    }
+
+    .textblock3 {
+      grid-column: 1 / 3;
+      grid-row: 6;
+    }
+
+    .textblock4 {
+      grid-column: 3 / 5;
+      grid-row: 6;
+    }
+
+
+    .niggli {
+      grid-column: 3 / 4;
+      grid-row: 8;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: flex-start;
+    }
+
+
+
+</style>
+  <title>Gridlayout</title>
+</head>
+<body>
+<div class="raster">
+  <div class="autor">Josef Müller-Brockmann</div>
+  <div class="gridsystems"> <h1>Grid systems<h1> </div>
+  <div class="textblock1">in graphic design</div>
+  <div class="textblock2">A visual communication manual <br> for graphic designers, <br> typographers and <br> three dimensional designers</div>
+  <div class="rastersysteme"> <h1>Raster systeme</h1> </div>
+  <div class="textblock3">für die <br> visuelle Gestaltung </div>
+  <div class="textblock4">Ein Handbuch für <br> Grafiker, Typografen und <br> Ausstellungsgestalter</div>
+  <div class="niggli"> <p><br>Niggli</p></div>
+</div>
+</body>
+</html>
