@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial;
+      font-size: 4rem;
+      background-color: black;
+    }
+
+    .transformation {
+      display: grid;
+      grid-template-rows: 100px 100px 100px 100px;
+      padding-top: 40px;
+      padding-left: 40px;
+    }
+
+
+    .transformation p{
+      line-height: auto;
+      align-self: end;
+      text-align: left;
+      margin:0;
+      padding: 0;
+      color: white;
+    }
+
+    .transformation:hover p {
+
+    }
+
+    .transformation div {
+      transition: all 1s ease;
+      transform-origin: 0% 100%;
+    }
+
+
+
+
+/* Einzelne Transformationen */
+
+    .eins:hover {
+      transform:  scaleX(5);
+      animation-direction: normal;
+      transition-duration: 2s;
+    }
+    .eins:hover p {
+      color: pink;
+      font-weight: bold;
+    }
+
+    .zwei:hover {
+      transform:  rotate(360deg) scale(0.7,0.7);
+      transition-duration: 2s;
+    }
+    .zwei:hover p {
+      color: #ffff99;
+    }
+
+    .drei:hover {
+      transform: scale(1.5);
+      transform:  translateX(100px);
+    }
+    .drei:hover p {
+      color: #80d4ff;
+    }
+
+    .vier:hover {
+      transform:  scale(2,1) rotate(20deg);
+      transition: ease-in 1s;
+    }
+    .vier:hover p {
+      color: #99cc00;
+    }
+
+
+
+
+  </style>
+</head>
+<body>
+<div class="transformation">
+  <div class="eins"> <p>MEHR</p> </div>
+  <div class="zwei"> <p>ZEIT</p> </div>
+  <div class="drei"> <p>ZUM</p> </div>
+  <div class="vier"> <p>SEIN.</p> </div>
+</div>
+
+</body>
+</html>
