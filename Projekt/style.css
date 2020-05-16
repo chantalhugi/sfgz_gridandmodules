@@ -1,0 +1,105 @@
+    body {
+        background-color: black;
+        margin: 10px;
+        padding: 10px;
+        font-family: 'Hepta Slab', serif;
+        font-size: 1.5rem;
+    }
+
+
+    /* The hero image */
+    .hero-image {
+      background-image: url("./images/titelbild_einstieg.jpg");
+      height: 30%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+    /* ------------------------ */
+
+
+    .grundraster{
+        display:grid;
+        background-color: pink;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(13fr);
+        min-height:50vh;
+
+    }
+
+
+    .animation {
+      display: grid;
+      grid-template-rows: 150px 150px 150px 150px;
+      grid-template-rows: auto;
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+
+
+    .animation p{
+      transition: all 3s ease;
+      line-height: auto;
+      align-self: end;
+      text-align: left;
+      margin:0;
+      padding: 0;
+      color: white;
+    }
+
+    .animation:hover p {
+      font-size: 10rem;
+      color: pink;
+      padding-top: calc(50vh – 4rem)
+    }
+
+
+    .animation:hover :nth-child(1) {
+      font-weight: bold;
+    }
+
+    .animation:hover :nth-child(2) {
+      font-size: 2rem;
+    }
+
+    .animation:hover :nth-child(3) {
+      transition-timing-function: linear;
+    }
+
+    .animation:hover :nth-child(4) {
+      font-size: 2rem;
+      letter-spacing: 300px;
+      transition: all 5s ease;
+    }
+
+
+
+
+
+
+
+    #strophe1{
+
+
+    }
+
+    #strophe2{
+
+
+    }
+
+
+
+    section {
+        grid-area: section;
+    }
