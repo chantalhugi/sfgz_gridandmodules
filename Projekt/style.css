@@ -4,17 +4,19 @@
         padding: 10px;
         font-family: 'Hepta Slab', serif;
         font-size: 1.5rem;
+        display: grid;
+        align-items: center;
+        justify-content: center;
     }
 
 
     /* The hero image */
     .hero-image {
-      background-image: url("./images/titelbild_einstieg.jpg");
-      height: 30%;
+      display:grid;
+      margin: auto;
+      min-height:30%;
+      width: 100%;
       background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
     }
 
     .hero-text {
@@ -102,4 +104,5 @@
 
     section {
         grid-area: section;
+
     }
