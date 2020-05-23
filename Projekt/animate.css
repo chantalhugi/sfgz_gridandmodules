@@ -1,0 +1,427 @@
+@media screen and (max-width: 600px) {
+  .animation1 p {
+      }
+    }
+
+
+
+  /* Animation Nr.1 */
+    .animation1 p{
+      transition: all 3s ease;
+      line-height: auto;
+      text-align: center;
+      margin:0;
+      padding: 0;
+      color: white;
+    }
+
+    .animation1:hover p {
+      font-size: 5vw;
+      padding-top: calc(20vh – 4rem)
+    }
+
+
+    .animation1:hover :nth-child(1) {
+    }
+
+    .animation1:hover :nth-child(2) {
+      font-size: 1rem;
+    }
+
+    .animation1:hover :nth-child(3) {
+      transition-timing-function: linear;
+    }
+
+    .animation1:hover :nth-child(4) {
+      font-size: 4rem;
+      letter-spacing: 100px;
+    }
+
+    .animation1:hover :nth-child(5) {
+    }
+
+    .animation1:hover :nth-child(6) {
+      font-size: 1rem;
+    }
+
+    .animation1:hover :nth-child(7) {
+      transition-timing-function: linear;
+    }
+
+    .animation1:hover :nth-child(8) {
+      font-size: 4rem;
+      letter-spacing: 100px;
+    }
+
+    .animation1:hover :nth-child(9) {
+    }
+
+    .animation1:hover :nth-child(10) {
+      font-size: 1rem;
+    }
+
+    .animation1:hover :nth-child(11) {
+      transition-timing-function: linear;
+    }
+
+    .animation1:hover :nth-child(12) {
+      font-size: 4rem;
+      letter-spacing: 100px;
+    }
+
+    .animation1:hover :nth-child(13) {
+    }
+
+    .animation1:hover :nth-child(14) {
+      font-size: 1rem;
+    }
+
+    .animation1:hover :nth-child(15) {
+      transition-timing-function: linear;
+    }
+
+    .animation1:hover :nth-child(16) {
+      font-size: 4rem;
+      letter-spacing: 100px;
+    }
+
+    .animation1:hover :nth-child(17) {
+    }
+
+    .animation1:hover :nth-child(18) {
+      font-size: 1rem;
+    }
+
+    .animation1:hover :nth-child(19) {
+      transition-timing-function: linear;
+    }
+
+    .animation1:hover :nth-child(20) {
+      transition-timing-function: linear;
+    }
+
+  /* ------------------------ */
+
+
+
+
+  /* Animation Nr.2 */
+    .animation2 p{
+      transition: all 3s ease;
+      line-height: auto;
+      text-align: center;
+      margin:0;
+      padding: 0;
+      color: white;
+    }
+
+    .animation2:hover p {
+      font-size: 5vw;
+      padding-top: calc(20vh – 4rem)
+    }
+
+
+    .animation2:hover :nth-child(1) {
+    }
+
+    .animation2:hover :nth-child(2) {
+      font-size: 1rem;
+    }
+
+    .animation2:hover :nth-child(3) {
+      transition-timing-function: linear;
+    }
+
+    .animation2:hover :nth-child(4) {
+      font-size: 4rem;
+      letter-spacing: 100px;
+    }
+
+    .animation2:hover :nth-child(5) {
+    }
+
+    .animation2:hover :nth-child(6) {
+      font-size: 1rem;
+    }
+
+    .animation2:hover :nth-child(7) {
+      transition-timing-function: linear;
+    }
+
+    .animation2:hover :nth-child(8) {
+      font-size: 4rem;
+      letter-spacing: 100px;
+    }
+
+    .animation2:hover :nth-child(9) {
+    }
+
+    .animation2:hover :nth-child(10) {
+      font-size: 1rem;
+    }
+
+    .animation2:hover :nth-child(11) {
+      transition-timing-function: linear;
+    }
+
+    .animation2:hover :nth-child(12) {
+      font-size: 4rem;
+      letter-spacing: 100px;
+    }
+
+    .animation2:hover :nth-child(13) {
+    }
+
+    .animation2:hover :nth-child(14) {
+      font-size: 1rem;
+    }
+
+    .animation2:hover :nth-child(15) {
+      transition-timing-function: linear;
+    }
+
+    .animation2:hover :nth-child(16) {
+      font-size: 4rem;
+      letter-spacing: 100px;
+    }
+
+    .animation2:hover :nth-child(17) {
+    }
+
+    .animation2:hover :nth-child(18) {
+      font-size: 1rem;
+    }
+
+    .animation2:hover :nth-child(19) {
+      transition-timing-function: linear;
+    }
+
+    .animation2:hover :nth-child(20) {
+      transition-timing-function: linear;
+    }
+
+  /* ------------------------ */
+
+
+
+
+  /* Animation Nr.3 */
+    .animation3 p{
+      transition: all 3s ease;
+      line-height: auto;
+      text-align: center;
+      margin:0;
+      padding: 0;
+      color: white;
+    }
+
+    .animation3:hover p {
+      font-size: 5vw;
+      padding-top: calc(20vh – 4rem)
+    }
+
+
+    .animation3:hover :nth-child(1) {
+    }
+
+    .animation3:hover :nth-child(2) {
+      font-size: 1rem;
+    }
+
+    .animation3:hover :nth-child(3) {
+      transition-timing-function: linear;
+    }
+
+    .animation3:hover :nth-child(4) {
+      font-size: 4rem;
+      letter-spacing: 100px;
+    }
+
+    .animation3:hover :nth-child(5) {
+    }
+
+    .animation3:hover :nth-child(6) {
+      font-size: 1rem;
+    }
+
+    .animation3:hover :nth-child(7) {
+      transition-timing-function: linear;
+    }
+
+    .animation3:hover :nth-child(8) {
+      font-size: 4rem;
+      letter-spacing: 100px;
+    }
+
+    .animation3:hover :nth-child(9) {
+    }
+
+    .animation3:hover :nth-child(10) {
+      font-size: 1rem;
+    }
+
+    .animation3:hover :nth-child(11) {
+      transition-timing-function: linear;
+    }
+
+    .animation3:hover :nth-child(12) {
+      font-size: 4rem;
+      letter-spacing: 100px;
+    }
+
+    .animation3:hover :nth-child(13) {
+    }
+
+    .animation3:hover :nth-child(14) {
+      font-size: 1rem;
+    }
+
+    .animation1:hover :nth-child(15) {
+      transition-timing-function: linear;
+    }
+
+    .animation3:hover :nth-child(16) {
+      font-size: 4rem;
+      letter-spacing: 100px;
+    }
+
+    .animation3:hover :nth-child(17) {
+    }
+
+    .animation3:hover :nth-child(18) {
+      font-size: 1rem;
+    }
+
+    .animation3:hover :nth-child(19) {
+      transition-timing-function: linear;
+    }
+
+    .animation3:hover :nth-child(20) {
+      transition-timing-function: linear;
+    }
+
+  /* ------------------------ */
+
+
+
+    /* Animation Nr.4 */
+      .animation4 p{
+        transition: all 3s ease;
+        line-height: auto;
+        text-align: center;
+        margin:0;
+        padding: 0;
+        color: white;
+      }
+
+      .animation4:hover p {
+        font-size: 5vw;
+        padding-top: calc(20vh – 4rem)
+      }
+
+
+      .animation4:hover :nth-child(1) {
+      }
+
+      .animation4:hover :nth-child(2) {
+        font-size: 1rem;
+      }
+
+      .animation4:hover :nth-child(3) {
+        transition-timing-function: linear;
+      }
+
+      .animation4:hover :nth-child(4) {
+        font-size: 4rem;
+        letter-spacing: 100px;
+      }
+
+      .animation4:hover :nth-child(5) {
+      }
+
+      .animation4:hover :nth-child(6) {
+        font-size: 1rem;
+      }
+
+      .animation4:hover :nth-child(7) {
+        transition-timing-function: linear;
+      }
+
+      .animation4:hover :nth-child(8) {
+        font-size: 4rem;
+        letter-spacing: 100px;
+      }
+
+      .animation4:hover :nth-child(9) {
+      }
+
+      .animation4:hover :nth-child(10) {
+        font-size: 1rem;
+      }
+
+      .animation4:hover :nth-child(11) {
+        transition-timing-function: linear;
+      }
+
+      .animation4:hover :nth-child(12) {
+        font-size: 4rem;
+        letter-spacing: 100px;
+      }
+
+      .animation4:hover :nth-child(13) {
+        font-size: 6rem;
+      }
+
+      .animation4:hover :nth-child(14) {
+        font-size: 1rem;
+      }
+
+      .animation4:hover :nth-child(15) {
+        transition-timing-function: linear;
+      }
+
+      .animation4:hover :nth-child(16) {
+        font-size: 4rem;
+        letter-spacing: 100px;
+      }
+
+      .animation4:hover :nth-child(17) {
+        font-size: 1rem;
+      }
+
+      .animation4:hover :nth-child(18) {
+        font-size: 9rem;
+      }
+
+      .animation4:hover :nth-child(19) {
+        transition-timing-function: linear;
+        letter-spacing: 50px;
+      }
+
+      .animation4:hover :nth-child(20) {
+        font-size: 3rem;
+      }
+
+      .animation4:hover :nth-child(21) {
+        font-size: 1rem;
+        letter-spacing: 150px;
+      }
+
+      .animation4:hover :nth-child(22) {
+        font-size: 5rem;
+      }
+
+      .animation4:hover :nth-child(23) {
+        font-size: 1rem;
+      }
+
+      .animation4:hover :nth-child(24) {
+        transition-timing-function: linear;
+      }
+
+      .animation4:hover :nth-child(25) {
+        transition-timing-function: linear;
+      }
+
+
+    /* ------------------------ */
