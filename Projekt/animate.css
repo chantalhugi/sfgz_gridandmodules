@@ -3,6 +3,44 @@
       }
     }
 
+  /* Animationen divers */
+    .einblenden {
+      opacity:0.25;
+    }
+
+    .einblenden:hover {
+        opacity: 1;
+        font-weight: bold;
+      }
+    /* ------------------------ */
+    .ausblenden {
+      transition: all 0.5s linear;
+    }
+
+    .ausblenden:hover {
+      color: black;
+      opacity: 0.75;
+      text-shadow:  1px  1px 1px white,
+                    1px -1px 1px white,
+                    -1px  1px 1px white,
+                    -1px -1px 1px white;
+    }
+/* ------------------------ */
+    .verschieben:hover {
+      position: relative;
+      animation: verschieben 2s 2;
+      animation-iteration-count: infinite;
+    }
+    @keyframes verschieben {
+        0%   {left: 0px;}
+        100% {left: 400px;}
+      }
+/* ------------------------ */
+
+
+
+/* ------------------------ */
+
 
 
   /* Animation Nr.1 */
@@ -15,89 +53,82 @@
       color: white;
     }
 
-    .animation1:hover p {
-      font-size: 5vw;
-      padding-top: calc(20vh – 4rem)
+
+
+    .animation1:hover :nth-child(1) { /* Jetzt */
+      font-size: 5rem;
     }
 
-
-    .animation1:hover :nth-child(1) {
+    .animation1:hover :nth-child(2) { /* ist */
+      transition: all 2s linear;
     }
 
-    .animation1:hover :nth-child(2) {
-      font-size: 1rem;
+    .animation1:hover :nth-child(3) { /* es */
+      font-size: 2rem;
     }
 
-    .animation1:hover :nth-child(3) {
-      transition-timing-function: linear;
+    .animation1:hover :nth-child(4) { /* gerade */
+      letter-spacing: 2vw;
     }
 
-    .animation1:hover :nth-child(4) {
+    .animation1:hover :nth-child(5) { /* so, */
+      font-size: 2rem;
+    }
+
+    .animation1:hover :nth-child(6) { /* dass */
+
+    }
+
+    .animation1:hover :nth-child(7) { /* alles */
       font-size: 4rem;
-      letter-spacing: 100px;
+      letter-spacing: 10vw;
     }
 
-    .animation1:hover :nth-child(5) {
+    .animation1:hover :nth-child(8) { /* was */
+
     }
 
-    .animation1:hover :nth-child(6) {
-      font-size: 1rem;
+    .animation1:hover :nth-child(9) { /* ist, */
+      transition: all 2s linear;
     }
 
-    .animation1:hover :nth-child(7) {
-      transition-timing-function: linear;
+    .animation1:hover :nth-child(10) { /* nicht */
     }
 
-    .animation1:hover :nth-child(8) {
-      font-size: 4rem;
-      letter-spacing: 100px;
+    .animation1:hover :nth-child(11) { /* ist, */
+      transition: all 2s linear;
     }
 
-    .animation1:hover :nth-child(9) {
+    .animation1:hover :nth-child(12) { /* darum */
+
     }
 
-    .animation1:hover :nth-child(10) {
-      font-size: 1rem;
+    .animation1:hover :nth-child(13) { /* hat */
     }
 
-    .animation1:hover :nth-child(11) {
-      transition-timing-function: linear;
+    .animation1:hover :nth-child(14) { /* man */
     }
 
-    .animation1:hover :nth-child(12) {
-      font-size: 4rem;
-      letter-spacing: 100px;
+    .animation1:hover :nth-child(15) { /* selber */
     }
 
-    .animation1:hover :nth-child(13) {
+    .animation1:hover :nth-child(16) { /* wieder */
+
     }
 
-    .animation1:hover :nth-child(14) {
-      font-size: 1rem;
+    .animation1:hover :nth-child(17) { /* mehr */
     }
 
-    .animation1:hover :nth-child(15) {
-      transition-timing-function: linear;
+    .animation1:hover :nth-child(18) { /* Zeit */
+      transition: 0.70s;
+      transform: rotate(360deg);
+      font-size: 5rem;
     }
 
-    .animation1:hover :nth-child(16) {
-      font-size: 4rem;
-      letter-spacing: 100px;
+    .animation1:hover :nth-child(19) { /* zum */
     }
 
-    .animation1:hover :nth-child(17) {
-    }
-
-    .animation1:hover :nth-child(18) {
-      font-size: 1rem;
-    }
-
-    .animation1:hover :nth-child(19) {
-      transition-timing-function: linear;
-    }
-
-    .animation1:hover :nth-child(20) {
-      transition-timing-function: linear;
+    .animation1:hover :nth-child(20) { /* Sein. */
     }
 
   /* ------------------------ */
@@ -115,89 +146,59 @@
       color: white;
     }
 
-    .animation2:hover p {
-      font-size: 5vw;
-      padding-top: calc(20vh – 4rem)
+
+    .animation2:hover :nth-child(1) { /* Zeit */
+      transform: rotate(360deg);
+      font-size: 5rem;
     }
 
-
-    .animation2:hover :nth-child(1) {
+    .animation2:hover :nth-child(2) { /* wird */
     }
 
-    .animation2:hover :nth-child(2) {
-      font-size: 1rem;
+    .animation2:hover :nth-child(3) { /* ausgebremst, */
     }
 
-    .animation2:hover :nth-child(3) {
-      transition-timing-function: linear;
+    .animation2:hover :nth-child(4) { /* weil */
+
     }
 
-    .animation2:hover :nth-child(4) {
-      font-size: 4rem;
-      letter-spacing: 100px;
+    .animation2:hover :nth-child(5) { /* wenn */
     }
 
-    .animation2:hover :nth-child(5) {
+    .animation2:hover :nth-child(6) { /* nichts */
+      opacity: 0.25;
     }
 
-    .animation2:hover :nth-child(6) {
-      font-size: 1rem;
+    .animation2:hover :nth-child(7) { /* ist, */
+      transition: all 2s linear;
     }
 
-    .animation2:hover :nth-child(7) {
-      transition-timing-function: linear;
+    .animation2:hover :nth-child(8) { /* geht */
+
     }
 
-    .animation2:hover :nth-child(8) {
-      font-size: 4rem;
-      letter-spacing: 100px;
+    .animation2:hover :nth-child(9) { /* Zeit */
+      transform: rotate(360deg);
+      font-size: 5rem;
     }
 
-    .animation2:hover :nth-child(9) {
+    .animation2:hover :nth-child(10) { /* auch */
+
     }
 
-    .animation2:hover :nth-child(10) {
-      font-size: 1rem;
+    .animation2:hover :nth-child(11) { /* nicht */
+      opacity: 0.25;
     }
 
-    .animation2:hover :nth-child(11) {
-      transition-timing-function: linear;
+    .animation2:hover :nth-child(12) { /* so */
+      font-size: 2rem;
     }
 
-    .animation2:hover :nth-child(12) {
-      font-size: 4rem;
-      letter-spacing: 100px;
+    .animation2:hover :nth-child(13) { /* schnell */
     }
 
-    .animation2:hover :nth-child(13) {
-    }
+    .animation2:hover :nth-child(14) { /* vorbei. */
 
-    .animation2:hover :nth-child(14) {
-      font-size: 1rem;
-    }
-
-    .animation2:hover :nth-child(15) {
-      transition-timing-function: linear;
-    }
-
-    .animation2:hover :nth-child(16) {
-      font-size: 4rem;
-      letter-spacing: 100px;
-    }
-
-    .animation2:hover :nth-child(17) {
-    }
-
-    .animation2:hover :nth-child(18) {
-      font-size: 1rem;
-    }
-
-    .animation2:hover :nth-child(19) {
-      transition-timing-function: linear;
-    }
-
-    .animation2:hover :nth-child(20) {
-      transition-timing-function: linear;
     }
 
   /* ------------------------ */
@@ -215,89 +216,72 @@
       color: white;
     }
 
-    .animation3:hover p {
-      font-size: 5vw;
-      padding-top: calc(20vh – 4rem)
+
+    .animation3:hover :nth-child(1) { /* Und */
     }
 
-
-    .animation3:hover :nth-child(1) {
+    .animation3:hover :nth-child(2) { /* keiner */
+      opacity: 0.25;
     }
 
-    .animation3:hover :nth-child(2) {
-      font-size: 1rem;
+    .animation3:hover :nth-child(3) { /* kommt */
+
     }
 
-    .animation3:hover :nth-child(3) {
-      transition-timing-function: linear;
+    .animation3:hover :nth-child(4) { /* vorbei */
+
     }
 
-    .animation3:hover :nth-child(4) {
-      font-size: 4rem;
-      letter-spacing: 100px;
+    .animation3:hover :nth-child(5) { /* und */
     }
 
-    .animation3:hover :nth-child(5) {
+    .animation3:hover :nth-child(6) { /* keiner */
+      opacity: 0.25;
     }
 
-    .animation3:hover :nth-child(6) {
-      font-size: 1rem;
+    .animation3:hover :nth-child(7) { /* lädt */
+
     }
 
-    .animation3:hover :nth-child(7) {
-      transition-timing-function: linear;
+    .animation3:hover :nth-child(8) { /* einem */
+
     }
 
-    .animation3:hover :nth-child(8) {
-      font-size: 4rem;
-      letter-spacing: 100px;
+    .animation3:hover :nth-child(9) { /* ein */
     }
 
-    .animation3:hover :nth-child(9) {
+    .animation3:hover :nth-child(10) { /* und */
+
     }
 
-    .animation3:hover :nth-child(10) {
-      font-size: 1rem;
+    .animation3:hover :nth-child(11) { /* nirgends */
+      opacity: 0.25;
     }
 
-    .animation3:hover :nth-child(11) {
-      transition-timing-function: linear;
+    .animation3:hover :nth-child(12) { /* muss */
+
     }
 
-    .animation3:hover :nth-child(12) {
-      font-size: 4rem;
-      letter-spacing: 100px;
+    .animation3:hover :nth-child(13) { /* man */
     }
 
-    .animation3:hover :nth-child(13) {
+    .animation3:hover :nth-child(14) { /* hin, */
+
     }
 
-    .animation3:hover :nth-child(14) {
-      font-size: 1rem;
+    .animation1:hover :nth-child(15) { /* so */
+      font-size: 2rem;
     }
 
-    .animation1:hover :nth-child(15) {
-      transition-timing-function: linear;
+    .animation3:hover :nth-child(16) { /* kanns */
+
     }
 
-    .animation3:hover :nth-child(16) {
-      font-size: 4rem;
-      letter-spacing: 100px;
+    .animation3:hover :nth-child(17) { /* öfters */
     }
 
-    .animation3:hover :nth-child(17) {
-    }
+    .animation3:hover :nth-child(18) { /* sein. */
 
-    .animation3:hover :nth-child(18) {
-      font-size: 1rem;
-    }
-
-    .animation3:hover :nth-child(19) {
-      transition-timing-function: linear;
-    }
-
-    .animation3:hover :nth-child(20) {
-      transition-timing-function: linear;
     }
 
   /* ------------------------ */
@@ -314,113 +298,95 @@
         color: white;
       }
 
-      .animation4:hover p {
-        font-size: 5vw;
-        padding-top: calc(20vh – 4rem)
+      .animation4:hover :nth-child(1) { /* Und */
       }
 
-
-      .animation4:hover :nth-child(1) {
-      }
-
-      .animation4:hover :nth-child(2) {
-        font-size: 1rem;
-      }
-
-      .animation4:hover :nth-child(3) {
-        transition-timing-function: linear;
-      }
-
-      .animation4:hover :nth-child(4) {
+      .animation4:hover :nth-child(2) { /* alles */
         font-size: 4rem;
-        letter-spacing: 100px;
+        letter-spacing: 10vw;
       }
 
-      .animation4:hover :nth-child(5) {
+      .animation4:hover :nth-child(3) { /* was */
+
       }
 
-      .animation4:hover :nth-child(6) {
-        font-size: 1rem;
+      .animation4:hover :nth-child(4) { /* man */
+
       }
 
-      .animation4:hover :nth-child(7) {
+      .animation4:hover :nth-child(5) { /* meint */
+      }
+
+      .animation4:hover :nth-child(6) { /* man */
+
+      }
+
+      .animation4:hover :nth-child(7) { /* müsste, */
+
+      }
+
+      .animation4:hover :nth-child(8) { /* weil */
+
+
+      }
+
+      .animation4:hover :nth-child(9) { /* das */
+      }
+
+      .animation4:hover :nth-child(10) { /* Leben */
+
+      }
+
+      .animation4:hover :nth-child(11) { /* ohne */
+        opacity: 0.25;
+      }
+
+      .animation4:hover :nth-child(12) { /* das */
+
+      }
+
+      .animation4:hover :nth-child(13) { /* nichts */
+        opacity: 0.25;
+      }
+
+      .animation4:hover :nth-child(14) { /* wär, */
+
+      }
+
+      .animation4:hover :nth-child(15) { /* staunt */
         transition-timing-function: linear;
       }
 
-      .animation4:hover :nth-child(8) {
-        font-size: 4rem;
-        letter-spacing: 100px;
+      .animation4:hover :nth-child(16) { /* man, */
+
       }
 
-      .animation4:hover :nth-child(9) {
+      .animation4:hover :nth-child(17) { /* man */
+
       }
 
-      .animation4:hover :nth-child(10) {
-        font-size: 1rem;
+      .animation4:hover :nth-child(18) { /* muss */
+
       }
 
-      .animation4:hover :nth-child(11) {
-        transition-timing-function: linear;
+      .animation4:hover :nth-child(19) { /* gar */
+
       }
 
-      .animation4:hover :nth-child(12) {
-        font-size: 4rem;
-        letter-spacing: 100px;
+      .animation4:hover :nth-child(20) { /* nicht */
+        opacity: 0.25;
       }
 
-      .animation4:hover :nth-child(13) {
-        font-size: 6rem;
+      .animation4:hover :nth-child(21) { /* und */
+
       }
 
-      .animation4:hover :nth-child(14) {
-        font-size: 1rem;
+      .animation4:hover :nth-child(22) { /* geht */
+
       }
 
-      .animation4:hover :nth-child(15) {
-        transition-timing-function: linear;
-      }
+      .animation4:hover :nth-child(23) { /* auch. */
 
-      .animation4:hover :nth-child(16) {
-        font-size: 4rem;
-        letter-spacing: 100px;
-      }
-
-      .animation4:hover :nth-child(17) {
-        font-size: 1rem;
-      }
-
-      .animation4:hover :nth-child(18) {
-        font-size: 9rem;
-      }
-
-      .animation4:hover :nth-child(19) {
-        transition-timing-function: linear;
-        letter-spacing: 50px;
-      }
-
-      .animation4:hover :nth-child(20) {
-        font-size: 3rem;
-      }
-
-      .animation4:hover :nth-child(21) {
-        font-size: 1rem;
-        letter-spacing: 150px;
-      }
-
-      .animation4:hover :nth-child(22) {
-        font-size: 5rem;
-      }
-
-      .animation4:hover :nth-child(23) {
-        font-size: 1rem;
-      }
-
-      .animation4:hover :nth-child(24) {
-        transition-timing-function: linear;
-      }
-
-      .animation4:hover :nth-child(25) {
-        transition-timing-function: linear;
       }
 
 
