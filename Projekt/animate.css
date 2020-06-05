@@ -5,32 +5,38 @@
 
   /* Animationen divers */
     .einblenden {
-      opacity:0.25;
+      opacity:0;
+      animation-name: einblenden;
     }
 
-    .einblenden:hover {
+    .einblenden.isinview {
         opacity: 1;
-        font-weight: bold;
+        font-style: italic;
+
       }
     /* ------------------------ */
     .ausblenden {
       transition: all 0.5s linear;
+      animation-name: ausblenden;
     }
 
-    .ausblenden:hover {
+    .ausblenden.isinview  {
       color: black;
       opacity: 0.75;
-      text-shadow:  1px  1px 1px white,
-                    1px -1px 1px white,
-                    -1px  1px 1px white,
-                    -1px -1px 1px white;
+      text-shadow:  0.5px  0.5px 0.5px white,
+                    0.5px -0.5px 0.5px white,
+                    -0.5px  0.5px 0.5px white,
+                    -0.5px -0.5px 0.5px white;
+
     }
 /* ------------------------ */
-    .verschieben:hover {
+    .verschieben.isinview  {
       position: relative;
-      animation: verschieben 2s 2;
+      animation-name: verschieben;
+      animation: 2s 2;
       animation-iteration-count: infinite;
     }
+
     @keyframes verschieben {
         0%   {left: 0px;}
         100% {left: 400px;}
@@ -39,13 +45,11 @@
 
 
 
-/* ------------------------ */
-
-
 
   /* Animation Nr.1 */
     .animation1 p{
-      transition: all 3s ease;
+      transition: all 5s ease;
+      animation-iteration-count: infinite;
       line-height: auto;
       text-align: center;
       margin:0;
@@ -55,31 +59,34 @@
 
 
 
-    .animation1:hover :nth-child(1) { /* Jetzt */
-      font-size: 5rem;
+    .animation1.isinview p:nth-child(1) { /* Jetzt */
+      font-size: 8rem;
+      transition: all 3s ease;
+      animation: alternate infinite 4s;
     }
 
-    .animation1:hover :nth-child(2) { /* ist */
-      transition: all 2s linear;
+    .animation1.isinview p:nth-child(2) { /* ist */
+      transition: all 3s linear;
     }
 
-    .animation1:hover :nth-child(3) { /* es */
+    .animation1.isinview p:nth-child(3) { /* es */
       font-size: 2rem;
     }
 
-    .animation1:hover :nth-child(4) { /* gerade */
+    .animation1.isinview p:nth-child(4) { /* gerade */
+      transition: all 2s ease;
       letter-spacing: 2vw;
     }
 
-    .animation1:hover :nth-child(5) { /* so, */
-      font-size: 2rem;
+    .animation1.isinview p:nth-child(5) { /* so, */
+      font-size: 3rem;
     }
 
     .animation1:hover :nth-child(6) { /* dass */
 
     }
 
-    .animation1:hover :nth-child(7) { /* alles */
+    .animation1.isinview p:nth-child(7) { /* alles */
       font-size: 4rem;
       letter-spacing: 10vw;
     }
@@ -88,15 +95,17 @@
 
     }
 
-    .animation1:hover :nth-child(9) { /* ist, */
+    .animation1.isinview p:nth-child(9) { /* ist, */
       transition: all 2s linear;
+      text-transform: lowercase;
     }
 
     .animation1:hover :nth-child(10) { /* nicht */
     }
 
-    .animation1:hover :nth-child(11) { /* ist, */
+    .animation1.isinview p:nth-child(11) { /* ist, */
       transition: all 2s linear;
+      text-transform: lowercase;
     }
 
     .animation1:hover :nth-child(12) { /* darum */
@@ -119,7 +128,8 @@
     .animation1:hover :nth-child(17) { /* mehr */
     }
 
-    .animation1:hover :nth-child(18) { /* Zeit */
+    .animation1.isinview p:nth-child(18) { /* Zeit */
+
       transition: 0.70s;
       transform: rotate(360deg);
       font-size: 5rem;
@@ -137,7 +147,8 @@
 
 
   /* Animation Nr.2 */
-    .animation2 p{
+    .animation2.isinview. p{
+      transition-delay: 5s;
       transition: all 3s ease;
       line-height: auto;
       text-align: center;
@@ -147,9 +158,9 @@
     }
 
 
-    .animation2:hover :nth-child(1) { /* Zeit */
+    .animation2.isinview p:nth-child(1) { /* Zeit */
       transform: rotate(360deg);
-      font-size: 5rem;
+      font-size: 4rem;
     }
 
     .animation2:hover :nth-child(2) { /* wird */
@@ -165,11 +176,11 @@
     .animation2:hover :nth-child(5) { /* wenn */
     }
 
-    .animation2:hover :nth-child(6) { /* nichts */
+    .animation2.isinview p:nth-child(6) { /* nichts */
       opacity: 0.25;
     }
 
-    .animation2:hover :nth-child(7) { /* ist, */
+    .animation2.isinview p:nth-child(7) { /* ist, */
       transition: all 2s linear;
     }
 
@@ -177,7 +188,7 @@
 
     }
 
-    .animation2:hover :nth-child(9) { /* Zeit */
+    .animation2.isinview p:nth-child(9) { /* Zeit */
       transform: rotate(360deg);
       font-size: 5rem;
     }
@@ -186,11 +197,11 @@
 
     }
 
-    .animation2:hover :nth-child(11) { /* nicht */
+    .animation2.isinview p:nth-child(11) { /* nicht */
       opacity: 0.25;
     }
 
-    .animation2:hover :nth-child(12) { /* so */
+    .animation2.isinview p:nth-child(12) { /* so */
       font-size: 2rem;
     }
 
@@ -220,7 +231,7 @@
     .animation3:hover :nth-child(1) { /* Und */
     }
 
-    .animation3:hover :nth-child(2) { /* keiner */
+    .animation3.isinview p:nth-child(2) { /* keiner */
       opacity: 0.25;
     }
 
@@ -235,7 +246,7 @@
     .animation3:hover :nth-child(5) { /* und */
     }
 
-    .animation3:hover :nth-child(6) { /* keiner */
+    .animation3.isinview p:nth-child(6) { /* keiner */
       opacity: 0.25;
     }
 
@@ -254,7 +265,7 @@
 
     }
 
-    .animation3:hover :nth-child(11) { /* nirgends */
+    .animation3.isinview p:nth-child(11) { /* nirgends */
       opacity: 0.25;
     }
 
@@ -269,7 +280,7 @@
 
     }
 
-    .animation1:hover :nth-child(15) { /* so */
+    .animation1.isinview p:nth-child(15) { /* so */
       font-size: 2rem;
     }
 
@@ -301,7 +312,7 @@
       .animation4:hover :nth-child(1) { /* Und */
       }
 
-      .animation4:hover :nth-child(2) { /* alles */
+      .animation4.isinview p:nth-child(2) { /* alles */
         font-size: 4rem;
         letter-spacing: 10vw;
       }
@@ -337,7 +348,7 @@
 
       }
 
-      .animation4:hover :nth-child(11) { /* ohne */
+      .animation4.isinview p:nth-child(11) { /* ohne */
         opacity: 0.25;
       }
 
@@ -345,7 +356,7 @@
 
       }
 
-      .animation4:hover :nth-child(13) { /* nichts */
+      .animation4.isinview p:nth-child(13) { /* nichts */
         opacity: 0.25;
       }
 
@@ -353,7 +364,7 @@
 
       }
 
-      .animation4:hover :nth-child(15) { /* staunt */
+      .animation4.isinview p:nth-child(15) { /* staunt */
         transition-timing-function: linear;
       }
 
@@ -373,7 +384,7 @@
 
       }
 
-      .animation4:hover :nth-child(20) { /* nicht */
+      .animation4.isinview p:nth-child(20) { /* nicht */
         opacity: 0.25;
       }
 

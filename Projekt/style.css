@@ -11,7 +11,7 @@
 
         p {
         font-size: 4vw;
-        line-height: 150%;
+        line-height: 160%;
         }
 
 
@@ -22,9 +22,9 @@
         }
 
         span {
-          font-size: 2vw;
+          font-size: 3vw;
           position: sticky;
-          margin-top: 38%;
+          margin-top: 45%;
         }
 
         .bild {
@@ -68,7 +68,7 @@
 
 
 
-/* Autorin */
+/* Text Autorin */
   .autor p{
     font-size: 0.75rem;
     text-align: center;
