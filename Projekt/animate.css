@@ -293,89 +293,89 @@
         padding: 0;
       }
 
-      .animation4:hover :nth-child(1) { /* Und */
+      .animation4 p:nth-child(1).isinview { /* Und */
       }
 
-      .animation4.isinview p:nth-child(2) { /* alles */
+      .animation4 p:nth-child(2).isinview { /* alles */
         letter-spacing: 10vw;
       }
 
-      .animation4:hover :nth-child(3) { /* was */
+      .animation4 p:nth-child(3).isinview { /* was */
 
       }
 
-      .animation4:hover :nth-child(4) { /* man */
+      .animation4 p:nth-child(4).isinview { /* man */
 
       }
 
-      .animation4:hover :nth-child(5) { /* meint */
+      .animation4 p:nth-child(5).isinview { /* meint */
       }
 
-      .animation4:hover :nth-child(6) { /* man */
-
-      }
-
-      .animation4:hover :nth-child(7) { /* müsste, */
+      .animation4 p:nth-child(6).isinview { /* man */
 
       }
 
-      .animation4:hover :nth-child(8) { /* weil */
+      .animation4 p:nth-child(7).isinview { /* müsste, */
+
+      }
+
+      .animation4 p:nth-child(8).isinview { /* weil */
 
 
       }
 
-      .animation4:hover :nth-child(9) { /* das */
+      .animation4 p:nth-child(9).isinview { /* das */
       }
 
-      .animation4:hover :nth-child(10) { /* Leben */
-
-      }
-
-      .animation4.isinview p:nth-child(11) { /* ohne */
-      }
-
-      .animation4:hover :nth-child(12) { /* das */
+      .animation4 p:nth-child(10).isinview { /* Leben */
 
       }
 
-      .animation4.isinview p:nth-child(13) { /* nichts */
+      .animation4 p:nth-child(11).isinview { /* ohne */
       }
 
-      .animation4:hover :nth-child(14) { /* wär, */
-
-      }
-
-      .animation4.isinview p:nth-child(15) { /* staunt */
-      }
-
-      .animation4:hover :nth-child(16) { /* man, */
+      .animation4 p:nth-child(12).isinview { /* das */
 
       }
 
-      .animation4:hover :nth-child(17) { /* man */
+      .animation4 p:nth-child(13).isinview { /* nichts */
+      }
+
+      .animation4 p:nth-child(14).isinview { /* wär, */
 
       }
 
-      .animation4:hover :nth-child(18) { /* muss */
+      .animation4 p:nth-child(15).isinview { /* staunt */
+      }
+
+      .animation4 p:nth-child(16).isinview { /* man, */
 
       }
 
-      .animation4:hover :nth-child(19) { /* gar */
+      .animation4 p:nth-child(17).isinview { /* man */
 
       }
 
-      .animation4.isinview p:nth-child(20) { /* nicht */
-      }
-
-      .animation4:hover :nth-child(21) { /* und */
+      .animation4 p:nth-child(18).isinview { /* muss */
 
       }
 
-      .animation4:hover :nth-child(22) { /* geht */
+      .animation4 p:nth-child(19).isinview { /* gar */
 
       }
 
-      .animation4:hover :nth-child(23) { /* auch. */
+      .animation4 p:nth-child(20).isinview { /* nicht */
+      }
+
+      .animation4 p:nth-child(21).isinview { /* und */
+
+      }
+
+      .animation4 p:nth-child(22).isinview { /* geht */
+
+      }
+
+      .animation4 p:nth-child(23).isinview { /* auch. */
 
       }
 
