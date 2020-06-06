@@ -3,31 +3,28 @@
       }
     }
 
-
     /* ------------------------ */
+    .slide-right {
+	        animation: slide-right 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation-iteration-count: infinite;
+        }
 
-    p.slidein {
-      animation: 5s infinite alternate slidein;
-      position: absolute;
-     }
+    @-webkit-keyframes slide-right {
+        0% {
+            transform: translateX(-50%);
+          }
+        100% {
+            transform: translateX(100%);
+          }
+        }
 
-    @keyframes slidein {
-      from {
-        margin-left: -400%;
-        width: 0%;
-      }
 
-      to {
-        margin-left: 0%;
-        width: 100%;
-      }
-    }
 
     /* ------------------------ */
     p.einfahren {
        animation-name: einfahren;
        animation-duration: 8s;
-       animation-direction:alternate;
+       animation-direction: alternate;
      }
 
     @keyframes einfahren {
@@ -55,7 +52,7 @@
 
   /* Animation Nr.1 */
     .animation1 p {
-      transition: all 3s ease;
+      transition: all 2s ease;
       transition-delay: 0.5s;
       text-align: center;
       margin:0;
@@ -145,7 +142,7 @@
 
   /* Animation Nr.2 */
   .animation2 p{
-    transition: all 3s ease;
+    transition: all 2s ease;
     line-height: auto;
     text-align: center;
     margin:0;
@@ -209,7 +206,7 @@
 
   /* Animation Nr.3 */
     .animation3 p{
-      transition: all 3s ease;
+      transition: all 2s ease;
       line-height: auto;
       text-align: center;
       margin:0;
@@ -286,7 +283,7 @@
 
     /* Animation Nr.4 */
       .animation4 p{
-        transition: all 3s ease;
+        transition: all 2s ease;
         line-height: auto;
         text-align: center;
         margin:0;

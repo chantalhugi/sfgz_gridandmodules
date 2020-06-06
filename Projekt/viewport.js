@@ -9,7 +9,7 @@
 
 let checkviewclass = ".checkview"; //Klasse der Elemente, die gecheckt werden sollen
 let inviewclass = "isinview"; //Klasse die gesetzt wird, falls Element im viewport ist
-let distanzy = 395;
+let distanzy = 398;
 
 /**
  * Ab hier nichts aendern!!
