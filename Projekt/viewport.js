@@ -9,6 +9,8 @@
 
 let checkviewclass = ".checkview"; //Klasse der Elemente, die gecheckt werden sollen
 let inviewclass = "isinview"; //Klasse die gesetzt wird, falls Element im viewport ist
+let distanzy = 395;
+
 /**
  * Ab hier nichts aendern!!
  */
@@ -17,8 +19,8 @@ const IsInView = el => {
     const boundsTop = el.getBoundingClientRect().top
 
     const viewport = {
-        top: 0,
-        bottom: window.innerHeight,
+        top: 0 + distanzy,
+        bottom: window.innerHeight - distanzy,
     }
 
     const bounds = {
