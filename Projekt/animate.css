@@ -56,25 +56,25 @@
   /* Animation Nr.1 */
     .animation1 p {
       transition: all 1s ease;
-      animation-delay: 10s;
+      transition-delay: 1s;
       text-align: center;
       margin:0;
       padding: 0;
     }
 
 
-    .animation1.isinview p:nth-child(1) { /* Jetzt */
+    .animation1 p:nth-child(1).isinview { /* Jetzt */
       font-size: 8vw;
     }
 
-    .animation1.isinview p:nth-child(2) { /* ist */
+    .animation1 p:nth-child(2).isinview { /* ist */
       font-weight: 700;
     }
 
-    .animation1.isinview p:nth-child(3) { /* es */
+    .animation1 p:nth-child(3).isinview { /* es */
     }
 
-    .animation1.isinview p:nth-child(4) { /* gerade */
+    .animation1 p:nth-child(4).isinview { /* gerade */
       transition: all 5s ease;
       letter-spacing: 2.5rem;
     }
