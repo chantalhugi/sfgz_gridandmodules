@@ -55,8 +55,8 @@
 
   /* Animation Nr.1 */
     .animation1 p {
-      transition: all 1s ease;
-      transition-delay: 1s;
+      transition: all 3s ease;
+      transition-delay: 0.5s;
       text-align: center;
       margin:0;
       padding: 0;
@@ -79,63 +79,63 @@
       letter-spacing: 2.5rem;
     }
 
-    .animation1.isinview p:nth-child(5) { /* so, */
+    .animation1 p:nth-child(5).isinview { /* so, */
     }
 
-    .animation1:hover :nth-child(6) { /* dass */
+    .animation1 p:nth-child(6).isinview { /* dass */
 
     }
 
-    .animation1.isinview p:nth-child(7) { /* alles */
+    .animation1 p:nth-child(7).isinview { /* alles */
       letter-spacing: 5rem;
     }
 
-    .animation1:hover :nth-child(8) { /* was */
+    .animation1 p:nth-child(8).isinview { /* was */
 
     }
 
-    .animation1.isinview p:nth-child(9) { /* ist, */
+    .animation1 p:nth-child(9).isinview { /* ist, */
       transition: all 2s linear;
       text-transform: lowercase;
     }
 
-    .animation1:hover :nth-child(10) { /* nicht */
+    .animation1 p:nth-child(10).isinview { /* nicht */
     }
 
-    .animation1.isinview p:nth-child(11) { /* ist, */
+    .animation1 p:nth-child(11).isinview { /* ist, */
       transition: all 2s linear;
       text-transform: lowercase;
     }
 
-    .animation1:hover :nth-child(12) { /* darum */
+    .animation1 p:nth-child(12).isinview { /* darum */
 
     }
 
-    .animation1:hover :nth-child(13) { /* hat */
+    .animation1 p:nth-child(13).isinview { /* hat */
     }
 
-    .animation1:hover :nth-child(14) { /* man */
+    .animation1 p:nth-child(14).isinview { /* man */
     }
 
-    .animation1:hover :nth-child(15) { /* selber */
+    .animation1 p:nth-child(15).isinview { /* selber */
     }
 
-    .animation1:hover :nth-child(16) { /* wieder */
+    .animation1 p:nth-child(16).isinview { /* wieder */
 
     }
 
-    .animation1:hover :nth-child(17) { /* mehr */
+    .animation1 p:nth-child(17).isinview { /* mehr */
     }
 
-    .animation1.isinview p:nth-child(18) { /* Zeit */
+    .animation1 p:nth-child(18).isinview { /* Zeit */
       transition: 0.70s;
       transform: rotate(360deg);
     }
 
-    .animation1:hover :nth-child(19) { /* zum */
+    .animation1 p:nth-child(19).isinview { /* zum */
     }
 
-    .animation1:hover :nth-child(20) { /* Sein. */
+    .animation1 p:nth-child(20).isinview { /* Sein. */
     }
 
   /* ------------------------ */
@@ -144,9 +144,8 @@
 
 
   /* Animation Nr.2 */
-  .animation2.checkview p{
+  .animation2 p{
     transition: all 3s ease;
-    animation-iteration-count: infinite;
     line-height: auto;
     text-align: center;
     margin:0;
@@ -154,52 +153,52 @@
   }
 
 
-    .animation2.isinview p:nth-child(1) { /* Zeit */
+    .animation2 p:nth-child(1).isinview { /* Zeit */
       transform: rotate(360deg);
     }
 
-    .animation2:hover :nth-child(2) { /* wird */
+    .animation2 p:nth-child(2).isinview { /* wird */
     }
 
-    .animation2:hover :nth-child(3) { /* ausgebremst, */
+    .animation2 p:nth-child(3).isinview { /* ausgebremst, */
     }
 
-    .animation2:hover :nth-child(4) { /* weil */
+    .animation2 p:nth-child(4).isinview { /* weil */
 
     }
 
-    .animation2:hover :nth-child(5) { /* wenn */
+    .animation2 p:nth-child(5).isinview { /* wenn */
     }
 
-    .animation2.isinview p:nth-child(6) { /* nichts */
+    .animation2  p:nth-child(6).isinview { /* nichts */
     }
 
-    .animation2.isinview p:nth-child(7) { /* ist, */
+    .animation2 p:nth-child(7).isinview { /* ist, */
       transition: all 2s linear;
     }
 
-    .animation2:hover :nth-child(8) { /* geht */
+    .animation2 p:nth-child(8).isinview { /* geht */
 
     }
 
-    .animation2.isinview p:nth-child(9) { /* Zeit */
+    .animation2 p:nth-child(9).isinview { /* Zeit */
       transform: rotate(360deg);
     }
 
-    .animation2:hover :nth-child(10) { /* auch */
+    .animation2 p:nth-child(10).isinview { /* auch */
 
     }
 
-    .animation2.isinview p:nth-child(11) { /* nicht */
+    .animation2 p:nth-child(11).isinview { /* nicht */
     }
 
-    .animation2.isinview p:nth-child(12) { /* so */
+    .animation2 p:nth-child(12).isinview { /* so */
     }
 
-    .animation2:hover :nth-child(13) { /* schnell */
+    .animation2 p:nth-child(13).isinview { /* schnell */
     }
 
-    .animation2:hover :nth-child(14) { /* vorbei. */
+    .animation2 p:nth-child(14).isinview { /* vorbei. */
 
     }
 
@@ -209,7 +208,7 @@
 
 
   /* Animation Nr.3 */
-    .animation3.checkview p{
+    .animation3 p{
       transition: all 3s ease;
       line-height: auto;
       text-align: center;
@@ -218,66 +217,66 @@
     }
 
 
-    .animation3:hover :nth-child(1) { /* Und */
+    .animation3 p:nth-child(1).isinview { /* Und */
     }
 
-    .animation3.isinview p:nth-child(2) { /* keiner */
+    .animation3 p:nth-child(2).isinview { /* keiner */
     }
 
-    .animation3:hover :nth-child(3) { /* kommt */
-
-    }
-
-    .animation3:hover :nth-child(4) { /* vorbei */
+    .animation3 p:nth-child(3).isinview { /* kommt */
 
     }
 
-    .animation3:hover :nth-child(5) { /* und */
-    }
-
-    .animation3.isinview p:nth-child(6) { /* keiner */
-    }
-
-    .animation3:hover :nth-child(7) { /* lädt */
+    .animation3 p:nth-child(4).isinview { /* vorbei */
 
     }
 
-    .animation3:hover :nth-child(8) { /* einem */
+    .animation3 p:nth-child(5).isinview { /* und */
+    }
+
+    .animation3 p:nth-child(6).isinview { /* keiner */
+    }
+
+    .animation3 p:nth-child(7).isinview { /* lädt */
 
     }
 
-    .animation3:hover :nth-child(9) { /* ein */
-    }
-
-    .animation3:hover :nth-child(10) { /* und */
+    .animation3 p:nth-child(8).isinview { /* einem */
 
     }
 
-    .animation3.isinview p:nth-child(11) { /* nirgends */
+    .animation3 p:nth-child(9).isinview { /* ein */
     }
 
-    .animation3:hover :nth-child(12) { /* muss */
-
-    }
-
-    .animation3:hover :nth-child(13) { /* man */
-    }
-
-    .animation3:hover :nth-child(14) { /* hin, */
+    .animation3 p:nth-child(10).isinview { /* und */
 
     }
 
-    .animation1.isinview p:nth-child(15) { /* so */
+    .animation3 p:nth-child(11).isinview { /* nirgends */
     }
 
-    .animation3:hover :nth-child(16) { /* kanns */
+    .animation3 p:nth-child(12).isinview { /* muss */
 
     }
 
-    .animation3:hover :nth-child(17) { /* öfters */
+    .animation3 p:nth-child(13).isinview { /* man */
     }
 
-    .animation3:hover :nth-child(18) { /* sein. */
+    .animation3 p:nth-child(14).isinview { /* hin, */
+
+    }
+
+    .animation1 p:nth-child(15).isinview { /* so */
+    }
+
+    .animation3 p:nth-child(16).isinview { /* kanns */
+
+    }
+
+    .animation3 p:nth-child(17).isinview { /* öfters */
+    }
+
+    .animation3 p:nth-child(18).isinview { /* sein. */
 
     }
 
@@ -286,7 +285,7 @@
 
 
     /* Animation Nr.4 */
-      .animation4.checkview p{
+      .animation4 p{
         transition: all 3s ease;
         line-height: auto;
         text-align: center;
