@@ -3,48 +3,19 @@
       }
     }
 
-    /* ------------------------ */
+/* ------------------------ */
     .slide-right {
-	        animation: slide-right 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-          animation-iteration-count: infinite;
+	        animation: slide-right;
+          animation-duration: 5s;
+          animation-direction: alternate;
         }
 
     @-webkit-keyframes slide-right {
-        0% {
-            transform: translateX(-50%);
-          }
-        100% {
-            transform: translateX(100%);
-          }
+      0%   {  transform:translate(-100) }
+      50%  {  transform:translate(50%) }
+      70%  {  transform:translate(-50%) }
+      100% {  transform:translate(100%) }
         }
-
-
-
-    /* ------------------------ */
-    p.einfahren {
-       animation-name: einfahren;
-       animation-duration: 8s;
-       animation-direction: alternate;
-     }
-
-    @keyframes einfahren {
-       0%   {  transform:translate(0)    }
-       36%  {  transform:translate(150%) }
-       70%  {  transform:translate(150%) }
-       100% {  transform:translate(400%) }
-    }
-
-
-/* ------------------------ */
-    p.ausblenden {
-        animation: ausblenden 1.5s;
-      }
-
-    @keyframes ausblenden {
-      from { opacity:1; }
-      to { opacity:0.1; }
-    }
-
 /* ------------------------ */
 
 
@@ -52,8 +23,8 @@
 
   /* Animation Nr.1 */
     .animation1 p {
-      transition: all 2s ease;
-      transition-delay: 0.5s;
+      transition: all 1s linear;
+      transition-delay: 0.25s;
       text-align: center;
       margin:0;
       padding: 0;
@@ -62,10 +33,10 @@
 
     .animation1 p:nth-child(1).isinview { /* Jetzt */
       font-size: 8vw;
+      transition: all 1s ease;
     }
 
     .animation1 p:nth-child(2).isinview { /* ist */
-      font-weight: 700;
     }
 
     .animation1 p:nth-child(3).isinview { /* es */
@@ -80,7 +51,6 @@
     }
 
     .animation1 p:nth-child(6).isinview { /* dass */
-
     }
 
     .animation1 p:nth-child(7).isinview { /* alles */
@@ -97,6 +67,8 @@
     }
 
     .animation1 p:nth-child(10).isinview { /* nicht */
+      transition: all 2s ease;
+      opacity: 0.1;
     }
 
     .animation1 p:nth-child(11).isinview { /* ist, */
@@ -122,11 +94,16 @@
     }
 
     .animation1 p:nth-child(17).isinview { /* mehr */
+      transition: all 5s ease;
+      font-size: 0.25rem;
+      letter-spacing: 15rem;
     }
 
     .animation1 p:nth-child(18).isinview { /* Zeit */
-      transition: 0.70s;
+      transition: 2.5s;
       transform: rotate(360deg);
+      font-size: 8vw;
+      letter-spacing: 0.5rem;
     }
 
     .animation1 p:nth-child(19).isinview { /* zum */
@@ -142,8 +119,8 @@
 
   /* Animation Nr.2 */
   .animation2 p{
-    transition: all 2s ease;
-    line-height: auto;
+    transition: all 1s linear;
+    transition-delay: 0.25s;
     text-align: center;
     margin:0;
     padding: 0;
@@ -151,13 +128,18 @@
 
 
     .animation2 p:nth-child(1).isinview { /* Zeit */
+      transition: 2.5s;
       transform: rotate(360deg);
+      font-size: 8vw;
+      letter-spacing: 0.5rem;
     }
 
     .animation2 p:nth-child(2).isinview { /* wird */
     }
 
     .animation2 p:nth-child(3).isinview { /* ausgebremst, */
+      transition: all 5s ease;
+      letter-spacing: 2rem;
     }
 
     .animation2 p:nth-child(4).isinview { /* weil */
@@ -168,6 +150,8 @@
     }
 
     .animation2  p:nth-child(6).isinview { /* nichts */
+      transition: all 2s ease;
+      opacity: 0.1;
     }
 
     .animation2 p:nth-child(7).isinview { /* ist, */
@@ -179,7 +163,10 @@
     }
 
     .animation2 p:nth-child(9).isinview { /* Zeit */
+      transition: 2.5s;
       transform: rotate(360deg);
+      font-size: 8vw;
+      letter-spacing: 0.5rem;
     }
 
     .animation2 p:nth-child(10).isinview { /* auch */
@@ -187,6 +174,8 @@
     }
 
     .animation2 p:nth-child(11).isinview { /* nicht */
+      transition: all 2s ease;
+      opacity: 0.1;
     }
 
     .animation2 p:nth-child(12).isinview { /* so */
@@ -196,7 +185,6 @@
     }
 
     .animation2 p:nth-child(14).isinview { /* vorbei. */
-
     }
 
   /* ------------------------ */
@@ -206,8 +194,8 @@
 
   /* Animation Nr.3 */
     .animation3 p{
-      transition: all 2s ease;
-      line-height: auto;
+      transition: all 1s linear;
+      transition-delay: 0.25s;
       text-align: center;
       margin:0;
       padding: 0;
@@ -218,6 +206,8 @@
     }
 
     .animation3 p:nth-child(2).isinview { /* keiner */
+      transition: all 2s ease;
+      opacity: 0.1;
     }
 
     .animation3 p:nth-child(3).isinview { /* kommt */
@@ -232,6 +222,8 @@
     }
 
     .animation3 p:nth-child(6).isinview { /* keiner */
+      transition: all 2s ease;
+      opacity: 0.1;
     }
 
     .animation3 p:nth-child(7).isinview { /* lädt */
@@ -250,6 +242,8 @@
     }
 
     .animation3 p:nth-child(11).isinview { /* nirgends */
+      transition: all 2s ease;
+      opacity: 0.1;
     }
 
     .animation3 p:nth-child(12).isinview { /* muss */
@@ -283,8 +277,8 @@
 
     /* Animation Nr.4 */
       .animation4 p{
-        transition: all 2s ease;
-        line-height: auto;
+        transition: all 1s linear;
+        transition-delay: 0.25s;
         text-align: center;
         margin:0;
         padding: 0;
@@ -329,6 +323,8 @@
       }
 
       .animation4 p:nth-child(11).isinview { /* ohne */
+        transition: all 2s ease;
+        opacity: 0.1;
       }
 
       .animation4 p:nth-child(12).isinview { /* das */
@@ -336,6 +332,8 @@
       }
 
       .animation4 p:nth-child(13).isinview { /* nichts */
+        transition: all 2s ease;
+        opacity: 0.1;
       }
 
       .animation4 p:nth-child(14).isinview { /* wär, */
@@ -362,6 +360,8 @@
       }
 
       .animation4 p:nth-child(20).isinview { /* nicht */
+        transition: all 2s ease;
+        opacity: 0.1;
       }
 
       .animation4 p:nth-child(21).isinview { /* und */
