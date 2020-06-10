@@ -33,7 +33,7 @@
 
     .animation1 p:nth-child(1).isinview { /* Jetzt */
       font-size: 8vw;
-      transition: all 1s ease;
+      transition: all 0.5s ease;
     }
 
     .animation1 p:nth-child(2).isinview { /* ist */
@@ -84,6 +84,8 @@
     }
 
     .animation1 p:nth-child(14).isinview { /* man */
+      background-color: white;
+      color: black;
     }
 
     .animation1 p:nth-child(15).isinview { /* selber */
@@ -110,6 +112,10 @@
     }
 
     .animation1 p:nth-child(20).isinview { /* Sein. */
+      text-shadow: 50px 50px 100px white;
+      color: black;
+      font-size: 7vw;
+      transition: 3 ease-in-out;
     }
 
   /* ------------------------ */
@@ -251,6 +257,8 @@
     }
 
     .animation3 p:nth-child(13).isinview { /* man */
+      background-color: white;
+      color: black;
     }
 
     .animation3 p:nth-child(14).isinview { /* hin, */
@@ -268,7 +276,10 @@
     }
 
     .animation3 p:nth-child(18).isinview { /* sein. */
-
+      text-shadow: 50px 50px 100px white;
+      color: black;
+      font-size: 7vw;
+      transition: 3 ease-in-out;
     }
 
   /* ------------------------ */
@@ -296,14 +307,16 @@
       }
 
       .animation4 p:nth-child(4).isinview { /* man */
-
+        background-color: white;
+        color: black;
       }
 
       .animation4 p:nth-child(5).isinview { /* meint */
       }
 
       .animation4 p:nth-child(6).isinview { /* man */
-
+        background-color: white;
+        color: black;
       }
 
       .animation4 p:nth-child(7).isinview { /* müsste, */
@@ -344,11 +357,13 @@
       }
 
       .animation4 p:nth-child(16).isinview { /* man, */
-
+        background-color: white;
+        color: black;
       }
 
       .animation4 p:nth-child(17).isinview { /* man */
-
+        background-color: white;
+        color: black;
       }
 
       .animation4 p:nth-child(18).isinview { /* muss */
