@@ -19,6 +19,27 @@
 /* ------------------------ */
 
 
+/* ------------------------ */
+
+.glow {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px white, 0 0 15px white, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px white;
+  }
+
+  to {
+    text-shadow: 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 70px white, 0 0 80px white;
+  }
+}
+/* ------------------------ */
+
+
 
 
   /* Animation Nr.1 */
@@ -37,6 +58,8 @@
     }
 
     .animation1 p:nth-child(2).isinview { /* ist */
+      transform: rotateY(180deg);
+      transform-style: preserve-3d;
     }
 
     .animation1 p:nth-child(3).isinview { /* es */
@@ -58,12 +81,11 @@
     }
 
     .animation1 p:nth-child(8).isinview { /* was */
-
     }
 
     .animation1 p:nth-child(9).isinview { /* ist, */
-      transition: all 2s linear;
-      text-transform: lowercase;
+      transform: rotateY(180deg);
+      transform-style: preserve-3d;
     }
 
     .animation1 p:nth-child(10).isinview { /* nicht */
@@ -72,33 +94,33 @@
     }
 
     .animation1 p:nth-child(11).isinview { /* ist, */
-      transition: all 2s linear;
-      text-transform: lowercase;
+      transform: rotateY(180deg);
+      transform-style: preserve-3d;
     }
 
     .animation1 p:nth-child(12).isinview { /* darum */
-
     }
 
     .animation1 p:nth-child(13).isinview { /* hat */
     }
 
     .animation1 p:nth-child(14).isinview { /* man */
-      background-color: white;
-      color: black;
     }
 
     .animation1 p:nth-child(15).isinview { /* selber */
     }
 
     .animation1 p:nth-child(16).isinview { /* wieder */
-
     }
 
     .animation1 p:nth-child(17).isinview { /* mehr */
-      transition: all 5s ease;
-      font-size: 0.25rem;
-      letter-spacing: 15rem;
+      transition: all 3s ease;
+      letter-spacing: 8rem;
+      font-size: 10rem;
+      color: black;
+      text-shadow: 10px 11px 6px white,
+                  -13px -14px 7px white,
+                  16px -17px 9px white;
     }
 
     .animation1 p:nth-child(18).isinview { /* Zeit */
@@ -112,7 +134,7 @@
     }
 
     .animation1 p:nth-child(20).isinview { /* Sein. */
-      text-shadow: 50px 50px 100px white;
+      text-shadow: 0px 0px 2px white;
       color: black;
       font-size: 7vw;
       transition: 3 ease-in-out;
@@ -149,7 +171,6 @@
     }
 
     .animation2 p:nth-child(4).isinview { /* weil */
-
     }
 
     .animation2 p:nth-child(5).isinview { /* wenn */
@@ -161,11 +182,11 @@
     }
 
     .animation2 p:nth-child(7).isinview { /* ist, */
-      transition: all 2s linear;
+      transform: rotateY(180deg);
+      transform-style: preserve-3d;
     }
 
     .animation2 p:nth-child(8).isinview { /* geht */
-
     }
 
     .animation2 p:nth-child(9).isinview { /* Zeit */
@@ -176,7 +197,6 @@
     }
 
     .animation2 p:nth-child(10).isinview { /* auch */
-
     }
 
     .animation2 p:nth-child(11).isinview { /* nicht */
@@ -209,6 +229,10 @@
 
 
     .animation3 p:nth-child(1).isinview { /* Und */
+      transition: all 3s ease-out;
+      background-color: white;
+      border-radius: 100%;
+      color: black;
     }
 
     .animation3 p:nth-child(2).isinview { /* keiner */
@@ -225,6 +249,10 @@
     }
 
     .animation3 p:nth-child(5).isinview { /* und */
+      transition: all 3s ease-out;
+      background-color: white;
+      border-radius: 100%;
+      color: black;
     }
 
     .animation3 p:nth-child(6).isinview { /* keiner */
@@ -233,18 +261,19 @@
     }
 
     .animation3 p:nth-child(7).isinview { /* lädt */
-
     }
 
     .animation3 p:nth-child(8).isinview { /* einem */
-
     }
 
     .animation3 p:nth-child(9).isinview { /* ein */
     }
 
     .animation3 p:nth-child(10).isinview { /* und */
-
+      transition: all 3s ease-out;
+      background-color: white;
+      border-radius: 100%;
+      color: black;
     }
 
     .animation3 p:nth-child(11).isinview { /* nirgends */
@@ -253,33 +282,34 @@
     }
 
     .animation3 p:nth-child(12).isinview { /* muss */
-
     }
 
     .animation3 p:nth-child(13).isinview { /* man */
-      background-color: white;
-      color: black;
     }
 
     .animation3 p:nth-child(14).isinview { /* hin, */
-
     }
 
     .animation1 p:nth-child(15).isinview { /* so */
     }
 
     .animation3 p:nth-child(16).isinview { /* kanns */
-
     }
 
     .animation3 p:nth-child(17).isinview { /* öfters */
+      transition: all 2s ease;
+      font-size: 8rem;
+      text-shadow: -60px -65px 15px white,
+                  60px 65px 15px white,
+                  120px -125px 15px white,
+                  -120px 125px 15px white;
     }
 
     .animation3 p:nth-child(18).isinview { /* sein. */
-      text-shadow: 50px 50px 100px white;
+      transition: all 3s ease-out;
+      text-shadow: 0px 0px 2px white;
       color: black;
       font-size: 7vw;
-      transition: 3 ease-in-out;
     }
 
   /* ------------------------ */
@@ -296,6 +326,10 @@
       }
 
       .animation4 p:nth-child(1).isinview { /* Und */
+        transition: all 3s ease-out;
+        background-color: white;
+        border-radius: 100%;
+        color: black;
       }
 
       .animation4 p:nth-child(2).isinview { /* alles */
@@ -303,36 +337,30 @@
       }
 
       .animation4 p:nth-child(3).isinview { /* was */
-
       }
 
       .animation4 p:nth-child(4).isinview { /* man */
-        background-color: white;
-        color: black;
       }
 
       .animation4 p:nth-child(5).isinview { /* meint */
       }
 
       .animation4 p:nth-child(6).isinview { /* man */
-        background-color: white;
-        color: black;
       }
 
       .animation4 p:nth-child(7).isinview { /* müsste, */
-
+        transition: all 2s ease;
+        font-weight: 600;
       }
 
       .animation4 p:nth-child(8).isinview { /* weil */
-
-
       }
 
       .animation4 p:nth-child(9).isinview { /* das */
       }
 
       .animation4 p:nth-child(10).isinview { /* Leben */
-
+        animation: glow 1s ease-in-out infinite alternate;
       }
 
       .animation4 p:nth-child(11).isinview { /* ohne */
@@ -350,28 +378,21 @@
       }
 
       .animation4 p:nth-child(14).isinview { /* wär, */
-
       }
 
       .animation4 p:nth-child(15).isinview { /* staunt */
       }
 
       .animation4 p:nth-child(16).isinview { /* man, */
-        background-color: white;
-        color: black;
       }
 
       .animation4 p:nth-child(17).isinview { /* man */
-        background-color: white;
-        color: black;
       }
 
       .animation4 p:nth-child(18).isinview { /* muss */
-
       }
 
       .animation4 p:nth-child(19).isinview { /* gar */
-
       }
 
       .animation4 p:nth-child(20).isinview { /* nicht */
@@ -380,16 +401,16 @@
       }
 
       .animation4 p:nth-child(21).isinview { /* und */
-
+        transition: all 3s ease-out;
+        background-color: white;
+        border-radius: 100%;
+        color: black;
       }
 
       .animation4 p:nth-child(22).isinview { /* geht */
-
       }
 
       .animation4 p:nth-child(23).isinview { /* auch. */
-
       }
-
 
     /* ------------------------ */
