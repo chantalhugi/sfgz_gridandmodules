@@ -1,10 +1,6 @@
-@media screen and (max-width: 600px) {
-  .animation1 p {
-      }
-    }
 
 /* ------------------------ */
-    .slide-right {
+    .isinview.slide-right {
 	        animation: slide-right;
           animation-duration: 5s;
           animation-direction: alternate;
@@ -18,11 +14,20 @@
         }
 /* ------------------------ */
 
+  .isinview.bounce {
+    transform-origin: 50% 50%;
+    animation: bounce .8s linear alternate infinite;
+    }
+
+    @keyframes bounce {
+      0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+      40%  {transform: translate3d(0,3%,0) scale3d(.7,1.5,1);}
+      100% {transform: translate3d(0,10%,0) scale3d(1.5,.7,1);}
+    }
 
 /* ------------------------ */
 
-.glow {
-  font-size: 80px;
+.isinview.glow {
   color: white;
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
@@ -77,7 +82,10 @@
     }
 
     .animation1 p:nth-child(7).isinview { /* alles */
-      letter-spacing: 5rem;
+      transition: all 2s ease;
+      letter-spacing: 5vw;
+      font-size: 8vw;
+      text-shadow: 0px 0px 20px white;
     }
 
     .animation1 p:nth-child(8).isinview { /* was */
@@ -105,6 +113,8 @@
     }
 
     .animation1 p:nth-child(14).isinview { /* man */
+      transition: all 2s ease;
+      transform:skew(-28deg,0deg);
     }
 
     .animation1 p:nth-child(15).isinview { /* selber */
@@ -115,8 +125,8 @@
 
     .animation1 p:nth-child(17).isinview { /* mehr */
       transition: all 3s ease;
-      letter-spacing: 8rem;
-      font-size: 10rem;
+      letter-spacing: 6rem;
+      font-size: 8rem;
       color: black;
       text-shadow: 10px 11px 6px white,
                   -13px -14px 7px white,
@@ -136,7 +146,7 @@
     .animation1 p:nth-child(20).isinview { /* Sein. */
       text-shadow: 0px 0px 2px white;
       color: black;
-      font-size: 7vw;
+      font-size: 8vw;
       transition: 3 ease-in-out;
     }
 
@@ -208,6 +218,8 @@
     }
 
     .animation2 p:nth-child(13).isinview { /* schnell */
+      transition: all 0.2s ease;
+      font-size: 8vw;
     }
 
     .animation2 p:nth-child(14).isinview { /* vorbei. */
@@ -229,10 +241,7 @@
 
 
     .animation3 p:nth-child(1).isinview { /* Und */
-      transition: all 3s ease-out;
-      background-color: white;
-      border-radius: 100%;
-      color: black;
+      text-decoration: solid overline white 10px;
     }
 
     .animation3 p:nth-child(2).isinview { /* keiner */
@@ -249,10 +258,7 @@
     }
 
     .animation3 p:nth-child(5).isinview { /* und */
-      transition: all 3s ease-out;
-      background-color: white;
-      border-radius: 100%;
-      color: black;
+      text-decoration: solid overline white 10px;
     }
 
     .animation3 p:nth-child(6).isinview { /* keiner */
@@ -270,10 +276,7 @@
     }
 
     .animation3 p:nth-child(10).isinview { /* und */
-      transition: all 3s ease-out;
-      background-color: white;
-      border-radius: 100%;
-      color: black;
+      text-decoration: solid overline white 10px;
     }
 
     .animation3 p:nth-child(11).isinview { /* nirgends */
@@ -282,9 +285,13 @@
     }
 
     .animation3 p:nth-child(12).isinview { /* muss */
+      transition: all 2s ease;
+      font-weight: 600;
     }
 
     .animation3 p:nth-child(13).isinview { /* man */
+      transition: all 2s ease;
+      transform:skew(-28deg,0deg);
     }
 
     .animation3 p:nth-child(14).isinview { /* hin, */
@@ -306,10 +313,10 @@
     }
 
     .animation3 p:nth-child(18).isinview { /* sein. */
-      transition: all 3s ease-out;
       text-shadow: 0px 0px 2px white;
       color: black;
-      font-size: 7vw;
+      font-size: 8vw;
+      transition: 3 ease-in-out;
     }
 
   /* ------------------------ */
@@ -326,26 +333,30 @@
       }
 
       .animation4 p:nth-child(1).isinview { /* Und */
-        transition: all 3s ease-out;
-        background-color: white;
-        border-radius: 100%;
-        color: black;
+        text-decoration: solid overline white 10px;
       }
 
       .animation4 p:nth-child(2).isinview { /* alles */
-        letter-spacing: 10vw;
+        transition: all 2s ease;
+        letter-spacing: 5vw;
+        font-size: 8vw;
+        text-shadow: 0px 0px 20px white;
       }
 
       .animation4 p:nth-child(3).isinview { /* was */
       }
 
       .animation4 p:nth-child(4).isinview { /* man */
+        transition: all 2s ease;
+        transform:skew(-28deg,0deg);
       }
 
       .animation4 p:nth-child(5).isinview { /* meint */
       }
 
       .animation4 p:nth-child(6).isinview { /* man */
+        transition: all 2s ease;
+        transform:skew(-28deg,0deg);
       }
 
       .animation4 p:nth-child(7).isinview { /* müsste, */
@@ -360,7 +371,7 @@
       }
 
       .animation4 p:nth-child(10).isinview { /* Leben */
-        animation: glow 1s ease-in-out infinite alternate;
+        font-size: 8vw;
       }
 
       .animation4 p:nth-child(11).isinview { /* ohne */
@@ -384,12 +395,18 @@
       }
 
       .animation4 p:nth-child(16).isinview { /* man, */
+        transition: all 2s ease;
+        transform:skew(-28deg,0deg);
       }
 
       .animation4 p:nth-child(17).isinview { /* man */
+        transition: all 2s ease;
+        transform:skew(-28deg,0deg);
       }
 
       .animation4 p:nth-child(18).isinview { /* muss */
+        transition: all 2s ease;
+        font-weight: 600;
       }
 
       .animation4 p:nth-child(19).isinview { /* gar */
@@ -401,10 +418,7 @@
       }
 
       .animation4 p:nth-child(21).isinview { /* und */
-        transition: all 3s ease-out;
-        background-color: white;
-        border-radius: 100%;
-        color: black;
+        text-decoration: solid overline white 10px;
       }
 
       .animation4 p:nth-child(22).isinview { /* geht */
